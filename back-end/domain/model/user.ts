@@ -1,6 +1,6 @@
 import { User as UserPrisma } from '@prisma/client'
 import { Role } from '../../types'
-
+import { User } from './user'
 export class User {
     readonly id?: number
     readonly username: string
